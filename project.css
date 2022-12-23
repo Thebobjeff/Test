@@ -1,0 +1,48 @@
+.btn {
+    background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+  element {
+    position: fixed;
+    z-index: 999;
+}
+#leftbox {
+  float:left; 
+  width:25%;
+  height:280px;
+}
+#middlebox{
+  float:left; 
+  width:50%;
+  height:280px;
+}
+#rightbox{
+  float:right;
+  width:25%;
+  height:280px;
+}
+
+div {
+    position: relative;
+    z-index: 99;
+}
+.btn:hover {
+    background-color:#002ead;
+    transition: 0.7s;
+}
+
+.start {
+  height: 100px;
+}
+
+.end {
+  height: 500px;
+}
